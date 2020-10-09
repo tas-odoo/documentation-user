@@ -1,10 +1,11 @@
 ========
-Shipping
+Overview
 ========
 
 .. toctree::
    :titlesonly:
    :glob:
 
-   shipping/setup
-   shipping/operation
+   concepts
+   start
+   process

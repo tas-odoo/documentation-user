@@ -6,7 +6,7 @@ Miscellaneous Operations
    :titlesonly:
    :glob:
 
-   misc/scrap
-   misc/owned_stock
-   misc/schedulers
-   misc/immediate_planned_transfers
+   scrap
+   owned_stock
+   schedulers
+   immediate_planned_transfers

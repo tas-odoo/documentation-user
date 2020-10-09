@@ -1,8 +1,8 @@
 :banner: banners/livechat.jpg
 
-=========
-Live Chat
-=========
+========
+Overview
+========
 
 Chat in real time with website visitors
 =======================================

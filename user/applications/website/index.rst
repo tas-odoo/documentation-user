@@ -7,8 +7,8 @@ Website
 .. toctree::
    :titlesonly:
 
-   website/publish
-   website/optimize
-   
+   publish
+   optimize
+
 
 

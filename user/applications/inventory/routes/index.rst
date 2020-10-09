@@ -6,6 +6,6 @@ Advanced Routes
    :titlesonly:
    :glob:
 
-   routes/concepts
-   routes/costing
-   routes/strategies
+   concepts
+   costing
+   strategies

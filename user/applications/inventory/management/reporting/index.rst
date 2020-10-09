@@ -6,5 +6,5 @@ Valuation Methods
    :titlesonly:
    :glob:
 
-   reporting/valuation_methods_continental
-   reporting/valuation_methods_anglo_saxon
+   valuation_methods_continental
+   valuation_methods_anglo_saxon

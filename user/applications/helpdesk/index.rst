@@ -7,5 +7,5 @@ Helpdesk
 .. toctree::
    :titlesonly:
 
-   helpdesk/getting_started
-   helpdesk/invoice_time
+   getting_started
+   invoice_time

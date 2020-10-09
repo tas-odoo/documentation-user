@@ -6,6 +6,6 @@ Lots and Serial Numbers
    :titlesonly:
    :glob:
 
-   lots_serial_numbers/differences
-   lots_serial_numbers/serial_numbers
-   lots_serial_numbers/lots
+   differences
+   serial_numbers
+   lots

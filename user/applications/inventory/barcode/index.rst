@@ -6,5 +6,5 @@ Barcodes
    :titlesonly:
    :glob:
 
-   barcode/setup
-   barcode/operations
+   setup
+   operations

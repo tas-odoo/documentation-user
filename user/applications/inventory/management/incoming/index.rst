@@ -6,6 +6,6 @@ Incoming Shipments
    :titlesonly:
    :glob:
 
-   incoming/handle_receipts
-   incoming/two_steps
-   incoming/three_steps
+   handle_receipts
+   two_steps
+   three_steps

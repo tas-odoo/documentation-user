@@ -1,10 +1,10 @@
 ========
-Settings
+Shipping
 ========
 
 .. toctree::
    :titlesonly:
    :glob:
 
-   settings/products
-   settings/warehouses
+   setup
+   operation

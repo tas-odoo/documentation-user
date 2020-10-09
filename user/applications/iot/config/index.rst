@@ -6,7 +6,7 @@ Configuration
    :titlesonly:
    :glob:
 
-   config/connect
-   config/flash_sdcard
-   config/iot_notfound
-   config/pos
+   connect
+   flash_sdcard
+   iot_notfound
+   pos
