@@ -74,6 +74,8 @@ You can start using Odoo.sh. Your first build is about to be created. You will s
 .. image:: ./media/deploy-done.png
    :align: center
 
+.. _odoo_sh_import_your_database:
+
 Import your database
 ====================
 
@@ -108,7 +110,7 @@ Access the URL :file:`/web/database/manager` of your on-premise database and dow
 
   If you cannot access the database manager, it may have been disabled by your system administrator.
   See the `database manager security documentation
-  <https://www.odoo.com/documentation/13.0/setup/deploy.html#database-manager-security>`_.
+  <https://www.odoo.com/documentation/14.0/setup/deploy.html#database-manager-security>`_.
 
 You will need the master password of your database server. If you do not have it, contact your system administrator.
 

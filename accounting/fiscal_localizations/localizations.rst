@@ -6,6 +6,7 @@ Localizations
    :titlesonly:
 
    localizations/argentina
+   localizations/australia
    localizations/chile
    localizations/colombia
    localizations/colombia_ES
@@ -15,5 +16,6 @@ Localizations
    localizations/italy_IT
    localizations/mexico
    localizations/netherlands
+   localizations/peru
    localizations/spain
    localizations/switzerland

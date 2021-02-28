@@ -40,8 +40,7 @@ Data such as Products, Contacts, and Equipment can be shared or set to be shown 
 company only. To do so, on their forms, choose between:
 
 - *A blank field*: the record is shared within all companies.
-- *Adding a company*: the record is visible to users logged in to that specific company and its
-  child companies.
+- *Adding a company*: the record is visible to users logged in to that specific company.
 
 .. image:: media/product_form_company.png
    :align: center
@@ -129,5 +128,5 @@ at an invoice/bills level or at a sales/purchase orders level.
    Remember to test all workflows as an user other than the administrator.
 
 .. seealso::
-   - `Multi-company Guidelines <https://www.odoo.com/documentation/13.0/howtos/company.html>`_
+   - `Multi-company Guidelines <https://www.odoo.com/documentation/14.0/howtos/company.html>`_
    - :doc:`../../accounting/others/multicurrencies/how_it_works`

@@ -4,26 +4,25 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Althay Ramallo Fuentes <arf@odoo.com>, 2020
 # Pablo Rojas <rojaspablo88@gmail.com>, 2020
 # AleEscandon <alejandra.escandon@jarsa.com.mx>, 2020
-# Fairuoz Hussein Naranjo <l92hunaf@gmail.com>, 2020
-# Julián Andrés Osorio López <mcjulian1107@gmail.com>, 2020
-# Raquel Iciarte <ric@odoo.com>, 2020
 # Alejandro Kutulas <alk@odoo.com>, 2020
 # Vivian Montana <vmo@odoo.com>, 2020
 # Cris Martin <cristina.marrod@gmail.com>, 2020
 # José Gerardo Páez Serrano <jgerardops@gmail.com>, 2020
-# Althay Ramallo Fuentes <arf@odoo.com>, 2020
-# luis abarca <AVEMAR2714@GMAIL.COM>, 2020
+# Fabian <fabiananguiano@gmail.com>, 2020
+# Martin Trigaux, 2021
+# Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-09 11:26+0200\n"
+"POT-Creation-Date: 2021-02-04 11:02+0100\n"
 "PO-Revision-Date: 2020-09-22 14:40+0000\n"
-"Last-Translator: luis abarca <AVEMAR2714@GMAIL.COM>, 2020\n"
+"Last-Translator: Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,15 +32,15 @@ msgstr ""
 
 #: ../../crm.rst:5
 msgid "CRM"
-msgstr ""
+msgstr "CRM"
 
 #: ../../crm/acquire_leads.rst:3
 msgid "Acquire leads"
-msgstr ""
+msgstr "Adquiere leads"
 
 #: ../../crm/acquire_leads/convert.rst:3
 msgid "Convert leads into opportunities"
-msgstr ""
+msgstr "Convierte iniciativas en oportunidades"
 
 #: ../../crm/acquire_leads/convert.rst:5
 msgid ""
@@ -56,11 +55,14 @@ msgid ""
 "sales channels by default. But you can make it specific for specific "
 "channels from their configuration form."
 msgstr ""
+"You can activate this mode from the CRM Settings. It applies to all your "
+"sales channels by default. But you can make it specific for specific "
+"channels from their configuration form."
 
 #: ../../crm/acquire_leads/convert.rst:14
 #: ../../crm/acquire_leads/generate_from_website.rst:41
 #: ../../crm/acquire_leads/lead_mining.rst:8
-#: ../../crm/optimize/gamification.rst:11 ../../crm/optimize/onsip.rst:13
+#: ../../crm/optimize/gamification.rst:11
 #: ../../crm/optimize/outlook_extension.rst:27
 #: ../../crm/optimize/partner_autocomplete.rst:9
 #: ../../crm/track_leads/lead_scoring.rst:12
@@ -82,7 +84,7 @@ msgstr ""
 
 #: ../../crm/acquire_leads/convert.rst:29
 msgid "Convert a lead into an opportunity"
-msgstr ""
+msgstr "Convierte un lead en una oportunidad"
 
 #: ../../crm/acquire_leads/convert.rst:31
 msgid ""
@@ -101,7 +103,7 @@ msgstr ""
 
 #: ../../crm/acquire_leads/convert.rst:44
 msgid "Merge opportunities"
-msgstr ""
+msgstr "Fusionar oportunidades"
 
 #: ../../crm/acquire_leads/convert.rst:46
 msgid ""
@@ -135,7 +137,7 @@ msgstr ""
 
 #: ../../crm/acquire_leads/generate_from_email.rst:3
 msgid "Generate leads/opportunities from emails"
-msgstr ""
+msgstr "Genera leads/oportunidades desde emails"
 
 #: ../../crm/acquire_leads/generate_from_email.rst:5
 msgid ""
@@ -146,7 +148,7 @@ msgstr ""
 
 #: ../../crm/acquire_leads/generate_from_email.rst:11
 msgid "Configure email aliases"
-msgstr ""
+msgstr "Configurar seudónimos de correo"
 
 #: ../../crm/acquire_leads/generate_from_email.rst:13
 msgid ""
@@ -164,7 +166,7 @@ msgstr ""
 
 #: ../../crm/acquire_leads/generate_from_website.rst:3
 msgid "Generate leads/opportunities from your website contact page"
-msgstr ""
+msgstr "Genera leads/oportunidades desde la página web de contacto"
 
 #: ../../crm/acquire_leads/generate_from_website.rst:5
 msgid ""
@@ -175,11 +177,11 @@ msgstr ""
 
 #: ../../crm/acquire_leads/generate_from_website.rst:10
 msgid "Use the contact us on your website"
-msgstr ""
+msgstr "Usa el contáctanos en tu página web"
 
 #: ../../crm/acquire_leads/generate_from_website.rst:12
 msgid "You should first go to your website app."
-msgstr ""
+msgstr "Primero debes ir a la página web de tu aplicación"
 
 #: ../../crm/acquire_leads/generate_from_website.rst:14
 msgid "|image0|\\ |image1|"
@@ -201,7 +203,7 @@ msgstr ""
 #: ../../crm/acquire_leads/generate_from_website.rst:32
 #: ../../crm/acquire_leads/generate_from_website.rst:50
 msgid "Create a custom contact form"
-msgstr ""
+msgstr "Crea una forma de contacto customizada"
 
 #: ../../crm/acquire_leads/generate_from_website.rst:34
 msgid ""
@@ -216,6 +218,8 @@ msgid ""
 "You will need to install the free *Form Builder* module, only available in "
 "Odoo Enterprise."
 msgstr ""
+"Necesitarás el módulo gratuito * Form Builder *, solo disponible en Odoo "
+"Enterprise."
 
 #: ../../crm/acquire_leads/generate_from_website.rst:52
 msgid ""
@@ -238,7 +242,7 @@ msgstr ""
 
 #: ../../crm/acquire_leads/generate_from_website.rst:67
 msgid "Generate leads instead of opportunities"
-msgstr ""
+msgstr "Genera leads en vez de oportunidades"
 
 #: ../../crm/acquire_leads/generate_from_website.rst:69
 msgid ""
@@ -317,7 +321,7 @@ msgstr ""
 #: ../../crm/optimize/outlook_extension.rst:138
 #: ../../crm/optimize/partner_autocomplete.rst:36
 msgid "Pricing"
-msgstr "Pricing"
+msgstr ""
 
 #: ../../crm/acquire_leads/lead_mining.rst:51
 msgid ""
@@ -337,7 +341,7 @@ msgid ""
 msgstr ""
 
 #: ../../crm/acquire_leads/lead_mining.rst:68
-#: ../../crm/optimize/outlook_extension.rst:148
+#: ../../crm/optimize/outlook_extension.rst:169
 msgid ""
 "If you are on Odoo Online (SAAS) and have the Enterprise version, you "
 "benefit from free trial credits to test the feature."
@@ -351,7 +355,7 @@ msgstr ""
 
 #: ../../crm/acquire_leads/send_quotes.rst:3
 msgid "Send quotations"
-msgstr ""
+msgstr "Envía presupuestos"
 
 #: ../../crm/acquire_leads/send_quotes.rst:5
 msgid ""
@@ -361,7 +365,7 @@ msgstr ""
 
 #: ../../crm/acquire_leads/send_quotes.rst:12
 msgid "Create a new quotation"
-msgstr ""
+msgstr "Crea un nuevo presupuesto"
 
 #: ../../crm/acquire_leads/send_quotes.rst:14
 msgid ""
@@ -374,6 +378,8 @@ msgid ""
 "You will find all your quotes to that specific opportunity under the "
 "*Quotations* menu on that page."
 msgstr ""
+"Encontrarás todos tus presupuestos a esa oportunidad específica bajo el menú"
+" *Presupuestos* en esa página."
 
 #: ../../crm/acquire_leads/send_quotes.rst:28
 msgid "Mark them won/lost"
@@ -384,20 +390,24 @@ msgid ""
 "Now you will need to mark your opportunity as won or lost to move the "
 "process along."
 msgstr ""
+"Ahora necesitarás marcar tu oportunidad como ganada o perdida para avanzar "
+"en el proceso"
 
 #: ../../crm/acquire_leads/send_quotes.rst:33
 msgid ""
 "If you mark them as won, they will move to your *Won* column in your Kanban "
 "view. If you however mark them as *Lost* they will be archived."
 msgstr ""
+"Si las marcas como ganadas, se moverán a tu columna *Ganadas* en tu vista "
+"Kanban. Si  las marcas como *Perdidas* serán archivadas."
 
 #: ../../crm/optimize.rst:3
 msgid "Optimize your Day-to-Day work"
-msgstr ""
+msgstr "Optimiza tu trabajo diario"
 
 #: ../../crm/optimize/gamification.rst:3
 msgid "How to motivate and reward my salespeople?"
-msgstr ""
+msgstr "¿Cómo motivar y recompensar a mis vendedores?"
 
 #: ../../crm/optimize/gamification.rst:5
 msgid ""
@@ -416,7 +426,7 @@ msgstr ""
 
 #: ../../crm/optimize/gamification.rst:21
 msgid "Create a challenge"
-msgstr ""
+msgstr "Crear un reto"
 
 #: ../../crm/optimize/gamification.rst:23
 msgid ""
@@ -503,10 +513,13 @@ msgid ""
 "Goals may include your database setup as well (e.g. set your company data "
 "and a timezone, create new users, etc.)."
 msgstr ""
+"Los objetivos pueden incluir la configuración de su base de datos, así (por "
+"ejemplo, establecer los datos de la empresa y una zona horaria, crear nuevos"
+" usuarios, etc.)."
 
 #: ../../crm/optimize/gamification.rst:77
 msgid "Set up rewards"
-msgstr ""
+msgstr "Establecer recompensas"
 
 #: ../../crm/optimize/gamification.rst:79
 msgid ""
@@ -515,271 +528,6 @@ msgid ""
 "express gratitude to a user for their good work. To create and grant badges "
 "to your employees based on their performance, go to :menuselection:`Settings"
 " --> Gamification Tools --> Badges`."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:3
-msgid "Synchronize Google Calendar with Odoo"
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:5
-msgid ""
-"Odoo is perfectly integrated with Google Calendar so that you can see & "
-"manage your meetings from both platforms (updates go through both "
-"directions)."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:10
-msgid "Setup in Google"
-msgstr "Configuración en Google"
-
-#: ../../crm/optimize/google_calendar_credentials.rst:11
-msgid ""
-"Go to `Google APIs platform <https://console.developers.google.com>`__ to "
-"generate Google Calendar API credentials. Log in with your Google account."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:14
-msgid "Go to the API & Services page."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:19
-msgid "Search for *Google Calendar API* and select it."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:27
-msgid "Enable the API."
-msgstr "Activa el API"
-
-#: ../../crm/optimize/google_calendar_credentials.rst:32
-msgid ""
-"Select or create an API project to store the credentials if not yet done "
-"before. Give it an explicit name (e.g. Odoo Sync)."
-msgstr ""
-"Selecciona o crea un proyecto API para almacenar las credenciales si es que "
-"no lo hizo previamente. Nómbralo con un título específico (Ej. Odoo Sync)."
-
-#: ../../crm/optimize/google_calendar_credentials.rst:35
-msgid "Create credentials."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:40
-msgid ""
-"Select *Web browser (Javascript)* as calling source and *User data* as kind "
-"of data."
-msgstr ""
-"Selecciona *Web browser (Javascript)* como fuente de llamada y *User data* "
-"como tipo de data."
-
-#: ../../crm/optimize/google_calendar_credentials.rst:46
-msgid ""
-"Then you can create a Client ID. Enter the name of the application (e.g. "
-"Odoo Calendar) and the allowed pages on which you will be redirected. The "
-"*Authorized JavaScript origin* is your Odoo's instance URL. The *Authorized "
-"redirect URI* is your Odoo's instance URL followed by "
-"'/google_account/authentication'."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:55
-msgid ""
-"Go through the Consent Screen step by entering a product name (e.g. Odoo "
-"Calendar). Feel free to check the customizations options but this is not "
-"mandatory. The Consent Screen will only show up when you enter the Client ID"
-" in Odoo for the first time."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:60
-msgid ""
-"Finally you are provided with your **Client ID**. Go to *Credentials* to get"
-" the **Client Secret** as well. Both of them are required in Odoo."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:67
-msgid "Setup in Odoo"
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:69
-msgid ""
-"Install the **Google Calendar** App from the *Apps* menu or by checking the "
-"option in :menuselection:`Settings --> General Settings`."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:75
-msgid ""
-"Go to :menuselection:`Settings --> General Settings` and enter your **Client"
-" ID** and **Client Secret** in Google Calendar option."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:81
-msgid ""
-"The setup is now ready. Open your Odoo Calendar and sync with Google. The "
-"first time you do it you are redirected to Google to authorize the "
-"connection. Once back in Odoo, click the sync button again. You can click it"
-" whenever you want to synchronize your calendar."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:89
-msgid "As of now you no longer have excuses to miss a meeting!"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:3
-msgid "Use VOIP services in Odoo with OnSIP"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:6
-msgid "Introduction"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:8
-msgid ""
-"Odoo VoIP can be set up to work together with OnSIP (www.onsip.com). In that"
-" case, the installation and setup of an Asterisk server is not necessary as "
-"the whole infrastructure is hosted and managed by OnSIP."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:10
-msgid ""
-"You will need to open an account with OnSIP to use this service. Before "
-"doing so, make sure that your area and the areas you wish to call are "
-"covered by the service. After opening an OnSIP account, follow the "
-"configuration procedure below."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:15
-msgid "Go to Apps and install the module **VoIP OnSIP**."
-msgstr "Ir a Aplicaciones e instalar el módulo **VoIP OnSIP**."
-
-#: ../../crm/optimize/onsip.rst:20
-msgid ""
-"Go to Settings/General Settings. In the section Integrations/Asterisk "
-"(VoIP), fill in the 3 fields:"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:22
-msgid ""
-"**OnSIP Domain** is the domain you chose when creating an account on "
-"www.onsip.com. If you don't know it, log in to https://admin.onsip.com/ and "
-"you will see it in the top right corner of the screen."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:23
-msgid "**WebSocket** should contain wss://edge.sip.onsip.com"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:24
-msgid "**Mode** should be Production"
-msgstr "**Modo** debe ser Producción"
-
-#: ../../crm/optimize/onsip.rst:29
-msgid ""
-"Go to **Settings/Users**. In the form view of each VoIP user, in the "
-"Preferences tab, fill in the section **PBX Configuration**:"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:31
-msgid "**SIP Login / Browser's Extension**: the OnSIP 'Username'"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:32
-msgid "**OnSIP authorization User**: the OnSIP 'Auth Username'"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:33
-msgid "**SIP Password**: the OnSIP 'SIP Password'"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:34
-msgid "**Handset Extension**: the OnSIP 'Extension'"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:36
-msgid ""
-"You can find all this information by logging in at "
-"https://admin.onsip.com/users, then select the user you want to configure "
-"and refer to the fields as pictured below."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:41
-msgid ""
-"You can now make phone calls by clicking the phone icon in the top right "
-"corner of Odoo (make sure you are logged in as a user properly configured in"
-" Odoo and in OnSIP)."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:45
-msgid ""
-"If you see a *Missing Parameters* message in the Odoo softphone, make sure "
-"to refresh your Odoo window and try again."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:52
-msgid ""
-"If you see an *Incorrect Number* message in the Odoo softphone, make sure to"
-" use the international format, leading with the plus (+) sign followed by "
-"the international country code. E.g.: +16506913277 (where +1 is the "
-"international prefix for the United States)."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:57
-msgid ""
-"You can now also receive phone calls. Your number is the one provided by "
-"OnSIP. Odoo will ring and display a notification."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:63
-msgid "OnSIP on Your Cell Phone"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:65
-msgid ""
-"In order to make and receive phone calls when you are not in front of your "
-"computer, you can use a softphone app on your cell phone in parallel of Odoo"
-" VoIP. This is useful for on-the-go calls, but also to make sure to hear "
-"incoming calls, or simply for convenience. Any SIP softphone will work."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:67
-msgid ""
-"On Android and iOS, OnSIP has been successfully tested with `Grandstream "
-"Wave <https://play.google.com/store/apps/details?id=com.grandstream.wave>`_."
-" When creating an account, select OnSIP in the list of carriers. You will "
-"then have to configure it as follows:"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:69
-msgid "**Account name**: OnSIP"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:70
-msgid "**SIP Server**: the OnSIP 'Domain'"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:71
-msgid "**SIP User ID**: the OnSIP 'Username'"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:72
-msgid "**SIP Authentication ID**: the OnSIP 'Auth Username'"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:73
-msgid "**Password**: the OnSIP 'SIP Password'"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:75
-msgid ""
-"Aside from initiating calls from Grandstream Wave on your phone, you can "
-"also initiate calls by clicking phone numbers in your browser on your PC. "
-"This will make Grandstream Wave ring and route the call via your phone to "
-"the other party. This approach is useful to avoid wasting time dialing phone"
-" numbers. In order to do so, you will need the Chrome extension `OnSIP Call "
-"Assistant <https://chrome.google.com/webstore/detail/onsip-call-"
-"assistant/pceelmncccldedfkcgjkpemakjbapnpg?hl=en>`_."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:79
-msgid ""
-"The downside of using a softphone on your cell phone is that your calls will"
-" not be logged in Odoo as the softphone acts as an independent separate app."
 msgstr ""
 
 #: ../../crm/optimize/outlook_extension.rst:3
@@ -852,6 +600,14 @@ msgstr ""
 msgid "``https://download.odoo.com/plugins/outlook/manifest.xml``"
 msgstr ""
 
+#: ../../crm/optimize/outlook_extension.rst:50
+msgid "Todo"
+msgstr "Por hacer"
+
+#: ../../crm/optimize/outlook_extension.rst:50
+msgid "add copy button when the feature is added to the doc"
+msgstr ""
+
 #: ../../crm/optimize/outlook_extension.rst:52
 msgid ""
 "Connect to your Outlook mailbox, open any email, and click on the *More "
@@ -882,9 +638,8 @@ msgstr ""
 
 #: ../../crm/optimize/outlook_extension.rst:84
 msgid ""
-"The *Odoo for Outlook* add-in is not listed in Outlook yet on Outlook's add-"
-"ins list. This is why it is currently necessary to install it as a *custom "
-"add-in*."
+"The *Odoo for Outlook* add-in is not listed yet on Outlook's add-ins list. "
+"This is why it is currently necessary to install it as a *custom add-in*."
 msgstr ""
 
 #: ../../crm/optimize/outlook_extension.rst:90
@@ -956,38 +711,69 @@ msgid ""
 "information."
 msgstr ""
 
-#: ../../crm/optimize/outlook_extension.rst:141
+#: ../../crm/optimize/outlook_extension.rst:140
 msgid ""
-"*Partner Autocomplete* is an *In-App Purchase (IAP)* service, which requires"
-" prepaid credits to be used. Each request consumes one credit."
+"The extension is **free** and doesn't require any purchase to be installed "
+"and used."
 msgstr ""
 
-#: ../../crm/optimize/outlook_extension.rst:143
+#: ../../crm/optimize/outlook_extension.rst:142
+msgid ""
+"However, this extension provides you with *Lead Enrichment* in the **Company"
+" Insights** section. This service is part of a paid service known as **Lead "
+"Generation**."
+msgstr ""
+
+#: ../../crm/optimize/outlook_extension.rst:145
+msgid ""
+"The extension allows you to test this service for free, whether you connect "
+"the extension to a database or not. After a while, the extension asks you to"
+" buy credits to keep using this additional service."
+msgstr ""
+
+#: ../../crm/optimize/outlook_extension.rst:155
+msgid ""
+"You can buy more *Lead Generation* credits to keep using this service or "
+"disregard this message and keep using the extension for free without *Lead "
+"Enrichment*."
+msgstr ""
+
+#: ../../crm/optimize/outlook_extension.rst:159
+msgid "In-App Purchase"
+msgstr "Compra dentro de Aplicaciones"
+
+#: ../../crm/optimize/outlook_extension.rst:162
+msgid ""
+"*Lead Generation* is an *In-App Purchase (IAP)* service, which requires "
+"prepaid credits to be used. Each request consumes one credit."
+msgstr ""
+
+#: ../../crm/optimize/outlook_extension.rst:164
 #: ../../crm/optimize/partner_autocomplete.rst:41
 msgid ""
 "To buy credits, go to :menuselection:`Settings --> Contacts --> Partner "
 "Autocomplete or Odoo IAP --> View My Services` and select a package."
 msgstr ""
 
-#: ../../crm/optimize/outlook_extension.rst:146
+#: ../../crm/optimize/outlook_extension.rst:167
 msgid ""
 "If you run out of credits, the only information populated when clicking on "
 "the suggested company is the website link and logo."
 msgstr ""
 
-#: ../../crm/optimize/outlook_extension.rst:150
+#: ../../crm/optimize/outlook_extension.rst:171
 #: ../../crm/optimize/partner_autocomplete.rst:48
 msgid ""
 "Learn about our *Privacy Policy* `here "
 "<https://iap.odoo.com/privacy#header_2>`_."
 msgstr ""
 
-#: ../../crm/optimize/outlook_extension.rst:153
-msgid ":doc:`partner_autocomplete`"
+#: ../../crm/optimize/outlook_extension.rst:174
+msgid ":doc:`../../general/in_app_purchase/in_app_purchase`"
 msgstr ""
 
-#: ../../crm/optimize/outlook_extension.rst:154
-msgid ":doc:`../../general/in_app_purchase/in_app_purchase`"
+#: ../../crm/optimize/outlook_extension.rst:175
+msgid "`Odoo Learn: Lead Enrichment <https://www.odoo.com/r/p73>`_"
 msgstr ""
 
 #: ../../crm/optimize/partner_autocomplete.rst:3
@@ -1047,245 +833,13 @@ msgid ""
 "benefit from free trial credits to test the feature."
 msgstr ""
 
-#: ../../crm/optimize/setup.rst:3
-msgid "Configure your VOIP Asterisk server for Odoo"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:6
-msgid "Installing Asterisk server"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:9
-msgid "Dependencies"
-msgstr "Dependencies"
-
-#: ../../crm/optimize/setup.rst:11
-msgid ""
-"Before installing Asterisk you need to install the following dependencies:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:13
-msgid "wget"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:14
-msgid "gcc"
-msgstr "gcc"
-
-#: ../../crm/optimize/setup.rst:15
-msgid "g++"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:16
-msgid "ncurses-devel"
-msgstr "ncurses-devel"
-
-#: ../../crm/optimize/setup.rst:17
-msgid "libxml2-devel"
-msgstr "libxml2-devel"
-
-#: ../../crm/optimize/setup.rst:18
-msgid "sqlite-devel"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:19
-msgid "libsrtp-devel"
-msgstr "libsrtp-devel"
-
-#: ../../crm/optimize/setup.rst:20
-msgid "libuuid-devel"
-msgstr "libuuid-devel"
-
-#: ../../crm/optimize/setup.rst:21
-msgid "openssl-devel"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:22
-msgid "pkg-config"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:24
-msgid "In order to install libsrtp, follow the instructions below:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:35
-msgid ""
-"You also need to install PJSIP, you can download the source `here "
-"<http://www.pjsip.org/download.htm>`_. Once the source directory is "
-"extracted:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:37
-msgid "**Change to the pjproject source directory:**"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:43
-msgid "**run:**"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:49
-msgid "**Build and install pjproject:**"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:57
-msgid "**Update shared library links:**"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:63
-msgid "**Verify that pjproject is installed:**"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:69
-msgid "**The result should be:**"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:86
-msgid "Asterisk"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:88
-msgid ""
-"In order to install Asterisk 13.7.0, you can download the source directly "
-"`there <http://downloads.asterisk.org/pub/telephony/asterisk/old-"
-"releases/asterisk-13.7.0.tar.gz>`_."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:90
-msgid "Extract Asterisk:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:96
-msgid "Enter the Asterisk directory:"
-msgstr "introduzca el directorio Asterisco."
-
-#: ../../crm/optimize/setup.rst:102
-msgid "Run the Asterisk configure script:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:108
-msgid "Run the Asterisk menuselect tool:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:114
-msgid ""
-"In the menuselect, go to the resources option and ensure that res_srtp is "
-"enabled. If there are 3 x’s next to res_srtp, there is a problem with the "
-"srtp library and you must reinstall it. Save the configuration (press x). "
-"You should also see stars in front of the res_pjsip lines."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:116
-msgid "Compile and install Asterisk:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:122
-msgid ""
-"If you need the sample configs you can run 'make samples' to install the "
-"sample configs. If you need to install the Asterisk startup script you can "
-"run 'make config'."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:125
-msgid "DTLS Certificates"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:127
-msgid "After you need to setup the DTLS certificates."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:133
-msgid "Enter the Asterisk scripts directory:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:139
-msgid ""
-"Create the DTLS certificates (replace pbx.mycompany.com with your ip address"
-" or dns name, replace My Super Company with your company name):"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:146
-msgid "Configure Asterisk server"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:148
-msgid ""
-"For WebRTC, a lot of the settings that are needed MUST be in the peer "
-"settings. The global settings do not flow down into the peer settings very "
-"well. By default, Asterisk config files are located in /etc/asterisk/. Start"
-" by editing http.conf and make sure that the following lines are "
-"uncommented:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:158
-msgid ""
-"Next, edit sip.conf. The WebRTC peer requires encryption, avpf, and "
-"icesupport to be enabled. In most cases, directmedia should be disabled. "
-"Also under the WebRTC client, the transport needs to be listed as ‘ws’ to "
-"allow websocket connections. All of these config lines should be under the "
-"peer itself; setting these config lines globally might not work:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:186
-msgid ""
-"In the sip.conf and rtp.conf files you also need to add or uncomment the "
-"lines:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:193
-msgid "Lastly, set up extensions.conf:"
-msgstr "por último ajustar extensiones.conf: "
-
-#: ../../crm/optimize/setup.rst:202
-msgid "Configure Odoo VOIP"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:204
-msgid "In Odoo, the configuration should be done in the user's preferences."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:210
-msgid ""
-"The SIP Login/Browser's Extension is the number you configured previously in"
-" the sip.conf file (in our example: 1060)."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:212
-msgid "The SIP Password is the secret you chose in the sip.conf file."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:214
-msgid ""
-"The extension of your office's phone is not a required field but it is used "
-"if you want to transfer your call from Odoo to an external phone also "
-"configured in the sip.conf file."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:217
-msgid ""
-"The configuration should also be done in the General Settings under the "
-"\"Integrations\" section."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:222
-msgid ""
-"The PBX Server IP should be the same as the IP you define in the http.conf "
-"file."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:224
-msgid ""
-"The WebSocket should be: ws://localhost:XXXX/ws where \"localhost\" needs to"
-" be the same as the IP defined previously and \"XXXX\" needs to be the port "
-"defined in the http.conf file."
-msgstr ""
-
 #: ../../crm/performance.rst:3
 msgid "Analyze performance"
-msgstr ""
+msgstr "Analizar el rendimiento"
 
 #: ../../crm/performance/win_loss.rst:3
 msgid "Check your Win/Loss Ratio"
-msgstr ""
+msgstr "Revisa tu Ratio Ganancia/Pérdida"
 
 #: ../../crm/performance/win_loss.rst:5
 msgid ""
@@ -1307,11 +861,11 @@ msgstr ""
 
 #: ../../crm/performance/win_loss.rst:18
 msgid "You can also change the *Measures* to *Total Revenue*."
-msgstr ""
+msgstr "También puedes cambiar las *medidas* a *Ingresos Totales*"
 
 #: ../../crm/performance/win_loss.rst:23
 msgid "You also have the ability to switch to a pie chart view."
-msgstr ""
+msgstr "También tienes la habilidad de cambiar a vista gráfico de pie."
 
 #: ../../crm/pipeline.rst:3
 msgid "Organize the pipeline"
@@ -1327,6 +881,9 @@ msgid ""
 " want to keep track of the reasons you lost them and also which ways Odoo "
 "can help you recover them in the future."
 msgstr ""
+"Al trabajar con tus oportunidades, puedes perder algunas de ellas. Vas a "
+"querer controlar las razones por las que lo perdiste y también qué caminos "
+"Odoo puede tomar para ayudarte a recuperarlo en el futuro."
 
 #: ../../crm/pipeline/lost_opportunities.rst:10
 msgid "Mark a lead as lost"
@@ -1343,10 +900,12 @@ msgid ""
 "You can then select an existing *Lost Reason* or create a new one right "
 "there."
 msgstr ""
+"Puedes luego seleccionar una existente *Razon Perdida* o crear una nueva ahí"
+" mismo."
 
 #: ../../crm/pipeline/lost_opportunities.rst:22
 msgid "Manage & create lost reasons"
-msgstr ""
+msgstr "Administra y crea razones perdidas"
 
 #: ../../crm/pipeline/lost_opportunities.rst:24
 msgid ""
@@ -1358,10 +917,12 @@ msgstr ""
 msgid ""
 "You can select & rename any of them as well as create a new one from there."
 msgstr ""
+"Puede seleccionar y cambiar el nombre de cualquiera de ellos, así como crear"
+" uno nuevo desde allí."
 
 #: ../../crm/pipeline/lost_opportunities.rst:30
 msgid "Retrieve lost opportunities"
-msgstr ""
+msgstr "Recuperar las oportunidades perdidas"
 
 #: ../../crm/pipeline/lost_opportunities.rst:32
 msgid ""
@@ -1371,13 +932,15 @@ msgstr ""
 
 #: ../../crm/pipeline/lost_opportunities.rst:39
 msgid "You will then see all your lost opportunities."
-msgstr ""
+msgstr "Luego verás todas tus oportunidades perdidas."
 
 #: ../../crm/pipeline/lost_opportunities.rst:41
 msgid ""
 "If you want to refine them further, you can add a filter on the *Lost "
 "Reason*."
 msgstr ""
+"Si quieres refinarlas aún más, puedes añadir un filtro en la *Razón "
+"Perdida*."
 
 #: ../../crm/pipeline/lost_opportunities.rst:44
 msgid "For Example, *Too Expensive*."
@@ -1385,7 +948,7 @@ msgstr "Por ejemplo, * Demasiado costoso*."
 
 #: ../../crm/pipeline/lost_opportunities.rst:50
 msgid "Restore lost opportunities"
-msgstr ""
+msgstr "Restablecer las oportunidades perdidas"
 
 #: ../../crm/pipeline/lost_opportunities.rst:52
 msgid ""
@@ -1404,6 +967,7 @@ msgstr ""
 #: ../../crm/pipeline/lost_opportunities.rst:66
 msgid "To select specific opportunities, you should switch to the list view."
 msgstr ""
+"Para seleccionar oportunidades específicas, debe cambiar a la vista lista."
 
 #: ../../crm/pipeline/lost_opportunities.rst:71
 msgid ""
@@ -1417,7 +981,7 @@ msgstr ""
 
 #: ../../crm/pipeline/multi_sales_team.rst:3
 msgid "Manage multiple sales teams"
-msgstr ""
+msgstr "Maneja varios equipos de ventas"
 
 #: ../../crm/pipeline/multi_sales_team.rst:5
 msgid ""
@@ -1427,7 +991,7 @@ msgstr ""
 
 #: ../../crm/pipeline/multi_sales_team.rst:10
 msgid "Create a new sales channel"
-msgstr ""
+msgstr "Crear un nuevo canal de ventas"
 
 #: ../../crm/pipeline/multi_sales_team.rst:12
 msgid ""
@@ -1443,7 +1007,7 @@ msgstr ""
 
 #: ../../crm/pipeline/multi_sales_team.rst:21
 msgid "Add members to your sales channel"
-msgstr ""
+msgstr "Añade miembros a tu canal de ventas"
 
 #: ../../crm/pipeline/multi_sales_team.rst:23
 msgid ""
@@ -1465,7 +1029,7 @@ msgstr ""
 
 #: ../../crm/pipeline/multi_sales_team.rst:40
 msgid "Sales channel dashboard"
-msgstr ""
+msgstr "Tablero Canal de Ventas"
 
 #: ../../crm/pipeline/multi_sales_team.rst:42
 msgid ""
@@ -1482,11 +1046,11 @@ msgstr ""
 
 #: ../../crm/track_leads.rst:3
 msgid "Assign and track leads"
-msgstr ""
+msgstr "Asignar y rastrear iniciativas"
 
 #: ../../crm/track_leads/lead_scoring.rst:3
 msgid "Assign leads based on scoring"
-msgstr ""
+msgstr "Asignar oportunidades basadas en puntuación"
 
 #: ../../crm/track_leads/lead_scoring.rst:5
 msgid ""
@@ -1527,10 +1091,12 @@ msgid ""
 "Every hour every lead without a score will be automatically scanned and "
 "assigned their right score according to your scoring rules."
 msgstr ""
+"Cada hora, cada oportunidad sin puntaje se escaneará automáticamente y se le"
+" asignará su puntaje correcto de acuerdo con sus reglas de puntuación."
 
 #: ../../crm/track_leads/lead_scoring.rst:40
 msgid "Assign leads"
-msgstr ""
+msgstr "Asignar iniciativas"
 
 #: ../../crm/track_leads/lead_scoring.rst:42
 msgid ""
@@ -1572,6 +1138,8 @@ msgstr ""
 msgid ""
 "In your leads page you can place a filter to find your unassigned leads."
 msgstr ""
+"En tu página de iniciativas puedes poner un filtro para encontrar tus "
+"clientes potenciales no asignados."
 
 #: ../../crm/track_leads/lead_scoring.rst:73
 msgid ""
@@ -1589,6 +1157,8 @@ msgid ""
 "Tracking your website pages will give you much more information about the "
 "interests of your website visitors."
 msgstr ""
+"Rastrear las páginas de tu sitio web te dará mucha más información sobre los"
+" intereses de los visitantes de tu sitio web."
 
 #: ../../crm/track_leads/prospect_visits.rst:8
 msgid ""
@@ -1604,7 +1174,7 @@ msgstr ""
 
 #: ../../crm/track_leads/prospect_visits.rst:21
 msgid "Track a webpage"
-msgstr ""
+msgstr "Rastrea una página web"
 
 #: ../../crm/track_leads/prospect_visits.rst:23
 msgid ""
@@ -1620,7 +1190,7 @@ msgstr ""
 
 #: ../../crm/track_leads/prospect_visits.rst:35
 msgid "See visited pages in your leads/opportunities"
-msgstr ""
+msgstr "Ver páginas visitadas en tus iniciativas/ oportunidades"
 
 #: ../../crm/track_leads/prospect_visits.rst:37
 msgid ""
@@ -1635,13 +1205,17 @@ msgid ""
 "Both will update if the viewers comes back to your website and visits more "
 "pages."
 msgstr ""
+"Ambos se actualizarán si los visitantes vuelven a su sitio web y visitan más"
+" páginas."
 
 #: ../../crm/track_leads/prospect_visits.rst:52
 msgid ""
 "The feature will not repeat multiple viewings of the same pages in the "
 "chatter."
 msgstr ""
+"La función no repetirá múltiples visualizaciones de las mismas páginas en la"
+" conversación."
 
 #: ../../crm/track_leads/prospect_visits.rst:55
 msgid "Your customers will no longer be able to keep any secrets from you!"
-msgstr ""
+msgstr "¡Tus clientes ya no podrán ocultarte ningún secreto!"

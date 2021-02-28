@@ -7,5 +7,6 @@ Purchase
 .. toctree::
    :titlesonly:
 
-   purchase/purchases
-   purchase/replenishment
+   purchase/products
+   purchase/manage_deals
+   purchase/advanced

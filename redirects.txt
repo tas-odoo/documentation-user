@@ -157,8 +157,6 @@ helpdesk/close_tickets.rst helpdesk/advanced/close_tickets.rst                  
 helpdesk/invoice_time.rst helpdesk/timesheet_and_invoice/invoice_time.rst                        # (#565)
 helpdesk/reinvoice_from_project.rst helpdesk/timesheet_and_invoice/reinvoice_from_project.rst    # (#565)
 
-# Redirections introduced in 13.3 :
-
 planning/duplicate_a_planning.rst planning/overview/duplicate_a_planning.rst    # (#567)
 planning/send_planned_shifts.rst planning/overview/send_planned_shifts.rst      # (#567)
 
@@ -175,6 +173,22 @@ discuss/plan_activities.rst discuss/overview/plan_activities.rst           # (#6
 discuss/team_communication.rst discuss/overview/team_communication.rst     # (#655)
 discuss/overview.rst discuss/overview/get_started.rst                      # (#655)
 
+crm/optimize/onsip.rst general/voip/onsip.rst                    # crm/optimize/* --> general/voip/*
+crm/optimize/setup.rst general/voip/asterisk.rst                 # crm/optimize/setup --> general/voip/asterisk
+
 # Redirections introduced in 14.0 :
 
 crm/optimize/mail_client_extension.rst crm/optimize/outlook_extension.rst                           # mail_client_extension -> outlook_extension  |  mail_client_extension is the first link provided as a tip in Odoo 14 but should be updated and point directly to outlook_extension
+crm/optimize/google_calendar_credentials.rst general/calendars/google/google_calendar_credentials.rst    # (#765)
+
+purchase/purchases/tender/blanket_orders.rst purchase/manage_deals/agreements.rst   # (#823)
+purchase/purchases/tender/call_for_tender.rst purchase/manage_deals/agreements.rst  # (#823)
+
+purchase/purchases/rfq/3_way_matching.rst purchase/manage_deals/control_bills.rst  # (#829)
+purchase/purchases/rfq/bills.rst purchase/manage_deals/control_bills.rst      # (#829)
+
+purchase/purchases/master/uom.rst purchase/products/uom.rst											# (#814)
+purchase/replenishment/flows/compute_date.rst inventory/management/planning/scheduled_dates.rst		# (#814)
+purchase/replenishment/flows/purchase_triggering.rst purchase/products/reordering.rst				# (#814)
+purchase/replenishment/flows/setup_stock_rule.rst purchase/products/reordering.rst					# (#814)
+purchase/replenishment/multicompany/setup.rst general/multi_companies/manage_multi_companies.rst	# (#814)

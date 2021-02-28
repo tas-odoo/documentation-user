@@ -4,19 +4,22 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Jérôme Tanché <jerome.tanche@ouest-dsi.fr>, 2020
-# Renaud de Colombel <rdecolombel@sgen.cfdt.fr>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
 # David David <f322p3ph@yahoo.fr>, 2020
+# Jérôme Tanché <jerome.tanche@ouest-dsi.fr>, 2020
+# Sébastien BÜHL <buhlsebastien@gmail.com>, 2020
+# Renaud de Colombel <rdecolombel@sgen.cfdt.fr>, 2020
+# Martin Trigaux, 2021
+# Fernanda Marques <fem@odoo.com>, 2021
+# Cécile Collart <cco@odoo.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-09 11:26+0200\n"
+"POT-Creation-Date: 2021-02-04 11:02+0100\n"
 "PO-Revision-Date: 2020-09-22 14:40+0000\n"
-"Last-Translator: David David <f322p3ph@yahoo.fr>, 2020\n"
+"Last-Translator: Cécile Collart <cco@odoo.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,7 +62,7 @@ msgstr ""
 #: ../../crm/acquire_leads/convert.rst:14
 #: ../../crm/acquire_leads/generate_from_website.rst:41
 #: ../../crm/acquire_leads/lead_mining.rst:8
-#: ../../crm/optimize/gamification.rst:11 ../../crm/optimize/onsip.rst:13
+#: ../../crm/optimize/gamification.rst:11
 #: ../../crm/optimize/outlook_extension.rst:27
 #: ../../crm/optimize/partner_autocomplete.rst:9
 #: ../../crm/track_leads/lead_scoring.rst:12
@@ -103,10 +106,13 @@ msgid ""
 "Odoo will automatically offer you to link to an existing customer if that "
 "customer already exists."
 msgstr ""
+"Si vous avez déjà défini une opportunité pour ce client, Odoo vous proposera"
+" automatiquement de fusionner avec cette opportunité. De la même manière, "
+"Odoo vous proposera de créer un lien vers un client qui existerait déjà."
 
 #: ../../crm/acquire_leads/convert.rst:44
 msgid "Merge opportunities"
-msgstr ""
+msgstr "Fusionner des opportunités"
 
 #: ../../crm/acquire_leads/convert.rst:46
 msgid ""
@@ -115,32 +121,45 @@ msgid ""
 " into the opportunity which was created first, giving priority to the "
 "information present on the first opportunity."
 msgstr ""
+"Odoo vous proposera aussi de fusionner automatiquement des opportunités si "
+"elles ont la même adresse email. Lors de cette fusion, Odoo fusionne les "
+"informations dans l'opportunité qui a été créée en premier, en donnant la "
+"priorité aux informations présentes dans la première opportunité."
 
 #: ../../crm/acquire_leads/convert.rst:51
 msgid ""
 "No information is lost: data from the other opportunity is logged in the "
 "chatter and the information fields for easy access."
 msgstr ""
+"Aucune information n'est perdue : pour un accès plus rapide, les données "
+"venant de l'autre opportunité sont enregistrées dans le chatter et dans les "
+"champs d'information."
 
 #: ../../crm/acquire_leads/convert.rst:57
 msgid ""
 "Would you find a duplicate yourself, ...you can also merge opportunities or "
 "leads even if the system doesn't propose it."
 msgstr ""
+"Si vous trouvez vous-même un doublon, vous pouvez aussi fusionner les "
+"opportunités ou les pistes même si le système ne vous le propose pas."
 
 #: ../../crm/acquire_leads/convert.rst:60
 msgid ""
 "Here’s how, from the list view. Select the opportunities or leads you want "
 "to merge and the action button will appear. Then, you can select merge."
 msgstr ""
+"Voici comment : depuis l'aperçu de la liste, sélectionnez les opportunités "
+"ou les pistes que vous voulez fusionner et le bouton action s'affichera. "
+"Ensuite, sélectionnez fusionner."
 
 #: ../../crm/acquire_leads/convert.rst:67
 msgid "It is also possible to merge more than 2 opportunities or leads."
 msgstr ""
+"Il est également possible de fusionner plus de deux opportunités ou pistes."
 
 #: ../../crm/acquire_leads/generate_from_email.rst:3
 msgid "Generate leads/opportunities from emails"
-msgstr ""
+msgstr "Générer des pistes et des opportunités à partir des emails"
 
 #: ../../crm/acquire_leads/generate_from_email.rst:5
 msgid ""
@@ -148,10 +167,14 @@ msgid ""
 "efficiency. By default, any email sent to *sales@database\\_domain.ext* will"
 " create an opportunity in the pipeline of the default sales channel."
 msgstr ""
+"Automatiser la création de pistes et d'opportunités améliorera "
+"considérablement votre efficacité. Par défaut, tout mail envoyé à "
+"*sales@database\\_domain.ext* créera une opportunité dans le pipeline du "
+"canal de ventes par défaut."
 
 #: ../../crm/acquire_leads/generate_from_email.rst:11
 msgid "Configure email aliases"
-msgstr ""
+msgstr "Configurer les alias des adresses email"
 
 #: ../../crm/acquire_leads/generate_from_email.rst:13
 msgid ""
@@ -170,6 +193,8 @@ msgstr ""
 #: ../../crm/acquire_leads/generate_from_website.rst:3
 msgid "Generate leads/opportunities from your website contact page"
 msgstr ""
+"Générer des pistes et des opportunités à partir de la page contact de votre "
+"site internet"
 
 #: ../../crm/acquire_leads/generate_from_website.rst:5
 msgid ""
@@ -184,11 +209,11 @@ msgstr ""
 
 #: ../../crm/acquire_leads/generate_from_website.rst:10
 msgid "Use the contact us on your website"
-msgstr ""
+msgstr "Utiliser le formulaire de contact de votre site Web"
 
 #: ../../crm/acquire_leads/generate_from_website.rst:12
 msgid "You should first go to your website app."
-msgstr ""
+msgstr "Rendez-vous, tout d'abord, sur l'application Site Web."
 
 #: ../../crm/acquire_leads/generate_from_website.rst:14
 msgid "|image0|\\ |image1|"
@@ -199,6 +224,9 @@ msgid ""
 "With the CRM app installed, you benefit from a ready-to-use contact form on "
 "your Odoo website that will generate leads/opportunities automatically."
 msgstr ""
+"Avec l'installation de l'application CRM, vous bénéficiez sur votre site Web"
+" Odoo d'un formulaire de contact prêt à l'emploi qui génère automatiquement "
+"des pistes et des opportunités."
 
 #: ../../crm/acquire_leads/generate_from_website.rst:23
 msgid ""
@@ -206,11 +234,15 @@ msgid ""
 "Configuration --> Settings` under *Communication* you will find the Contact "
 "Form info and where to change the *Sales Channel* or *Salesperson*."
 msgstr ""
+"Pour assigner les pistes à une équipe commerciale précise, allez dans "
+":menuselection:`Site Web --> Configuration --> Paramètres`, vous trouverez "
+"dans la partie *Communication* les informations du formulaire de contact et "
+"vous pourrez modifier l'*Équipe commerciale* ou le *Vendeur*."
 
 #: ../../crm/acquire_leads/generate_from_website.rst:32
 #: ../../crm/acquire_leads/generate_from_website.rst:50
 msgid "Create a custom contact form"
-msgstr ""
+msgstr "Créer un formulaire de contact personnalisé"
 
 #: ../../crm/acquire_leads/generate_from_website.rst:34
 msgid ""
@@ -219,12 +251,20 @@ msgid ""
 "contact forms can generate multiple types of records in the system (emails, "
 "leads/opportunities, project tasks, helpdesk tickets, etc.)"
 msgstr ""
+"Vous pouvez vouloir en apprendre plus sur vos visiteurs quand ils utilisent "
+"le formulaire de contact pour vous joindre. Vous aurez alors besoin de "
+"construire un formulaire de contact personnalisé sur votre site Web. Ces "
+"formulaires de contact peuvent générer de nombreux types d'enregistrements "
+"dans le système (emails, pistes/opportunités, tâches, tickets d'assistance "
+"technique, etc.)."
 
 #: ../../crm/acquire_leads/generate_from_website.rst:43
 msgid ""
 "You will need to install the free *Form Builder* module, only available in "
 "Odoo Enterprise."
 msgstr ""
+"Vous devez installer le module gratuit *Générateur de formulaire*, qui est "
+"uniquement disponible dans Odoo Entreprise."
 
 #: ../../crm/acquire_leads/generate_from_website.rst:52
 msgid ""
@@ -232,22 +272,31 @@ msgid ""
 " drag the form builder onto the page, and you will be able to add all the "
 "fields you wish."
 msgstr ""
+"Allez tout d'abord sur la page où vous désirez insérer votre formulaire de "
+"contact. Dans le mode édition, déplacez le générateur de formulaire dans "
+"votre page et vous pourrez ajouter tous les champs que vous souhaitez."
 
 #: ../../crm/acquire_leads/generate_from_website.rst:59
 msgid ""
 "By default, any new contact form will send an email. You can switch to "
 "lead/opportunity generation in *Change Form Parameters*."
 msgstr ""
+"Par défaut, tout nouveau contact générera l'envoi d'un email. Vous pouvez "
+"passer à la génération de pistes ou d'opportunités dans *Modifier les "
+"paramètres du formulaire*."
 
 #: ../../crm/acquire_leads/generate_from_website.rst:63
 msgid ""
 "If the same visitor uses the contact form twice, the second entry will be "
 "added to the first lead/opportunity in the chatter."
 msgstr ""
+"Si un même utilisateur utilise le formulaire de contact deux fois, la "
+"deuxième entrée sera ajoutée à la première piste ou opportunité dans le "
+"chatter."
 
 #: ../../crm/acquire_leads/generate_from_website.rst:67
 msgid "Generate leads instead of opportunities"
-msgstr ""
+msgstr "Générer des pistes plutôt que des opportunités"
 
 #: ../../crm/acquire_leads/generate_from_website.rst:69
 msgid ""
@@ -255,10 +304,14 @@ msgid ""
 "assigning the form to the right sales people. To do so, activate *Leads* in "
 "CRM settings and refer to :doc:`convert`."
 msgstr ""
+"Lorsque vous utilisez un formulaire de contact, vous devez utiliser une "
+"étape de qualification avant d'attribuer le formulaire aux vendeurs. Pour le"
+" faire, activez *Pistes* dans les paramètres CRM et référez-vous à "
+":doc:`convert`."
 
 #: ../../crm/acquire_leads/lead_mining.rst:3
 msgid "Lead mining"
-msgstr ""
+msgstr "Prospection de pistes"
 
 #: ../../crm/acquire_leads/lead_mining.rst:4
 msgid ""
@@ -268,16 +321,24 @@ msgid ""
 "country, the size of the company, the industry your leads are coming from to"
 " make them relevant to your business."
 msgstr ""
+"Dans toute entreprise, il est essentiel d'obtenir des pistes de qualité pour"
+" maintenir la croissance de l'entreprise. La prospection de pistes vous "
+"permet de générer des pistes à partir de zéro, directement à partir de votre"
+" base de données. Ciblez vos pistes en fonction d'un ensemble de critères "
+"tels que le pays, la taille de l'entreprise et le secteur d'activité d'où "
+"elles proviennent afin de les rendre pertinentes pour votre entreprise."
 
 #: ../../crm/acquire_leads/lead_mining.rst:10
 msgid ""
 "For this feature to work, go to :menuselection:`CRM --> Configuration --> "
 "Settings` and activate the **Lead Mining** feature."
 msgstr ""
+"Pour que cette fonctionnalité fonctionne, allez à  :menuselection:`CRM --> "
+"Configuration --> Paramètres` et activez la fonction **Lead Mining**."
 
 #: ../../crm/acquire_leads/lead_mining.rst:17
 msgid "Start generating leads"
-msgstr ""
+msgstr "Générer des pistes"
 
 #: ../../crm/acquire_leads/lead_mining.rst:18
 msgid ""
@@ -287,12 +348,19 @@ msgid ""
 ":menuselection:`Leads --> Leads` where you have the **Generate Leads** "
 "button."
 msgstr ""
+"Un nouveau bouton **Générer des pistes** est désormais disponible dans votre"
+" pipeline. Vous pouvez aussi créer une requête de prospection de pistes "
+"depuis :menuselection:`Configuration --> Requêtes de prospection de pistes` "
+"et via :menuselection:`Pistes --> Pistes` à partir du bouton **Générer des "
+"pistes**."
 
 #: ../../crm/acquire_leads/lead_mining.rst:27
 msgid ""
 "From there, click on the **Generate Leads** button, a window where you will "
 "be able to pick your criteria will pop up."
 msgstr ""
+"De là, cliquez sur le bouton **Générer des pistes**, une fenêtre dans "
+"laquelle vous pouvez choisir vos critères apparaîtra."
 
 #: ../../crm/acquire_leads/lead_mining.rst:34
 msgid ""
@@ -302,6 +370,12 @@ msgid ""
 "information about General Data Protection Regulation on `Odoo GDPR "
 "<http://odoo.com/gdpr>`__,"
 msgstr ""
+"Lorsque vous choisissez de cibler des entreprises et leurs contacts, vous "
+"pouvez choisir les contacts que vous obtenez en fonction du rôle ou de "
+"l'ancienneté. Pour obtenir des informations sur les contacts, assurez-vous "
+"de connaître la dernière réglementation de l'UE. Pour plus d'informations "
+"sur le règlement général sur la protection des données, consultez le site "
+"\"Odoo GDPR <http://odoo.com/gdpr>`__\","
 
 #: ../../crm/acquire_leads/lead_mining.rst:39
 msgid ""
@@ -311,6 +385,11 @@ msgid ""
 "pick the industries your leads are coming from. It is possible to pick "
 "multiple industries."
 msgstr ""
+"Vous pouvez décider de filtrer les pistes que vous obtenez en fonction de la"
+" taille (nombre d'employés) des entreprises. Vous pouvez choisir les pays "
+"d'où proviennent vos pistes. Il est possible de sélectionner plusieurs pays."
+" Vous pouvez sélectionner les secteurs d'activité d'où proviennent vos "
+"pistes. Il est possible de sélectionner plusieurs industries."
 
 #: ../../crm/acquire_leads/lead_mining.rst:43
 msgid ""
@@ -323,13 +402,13 @@ msgstr ""
 
 #: ../../crm/acquire_leads/lead_mining.rst:47
 msgid "The generated leads will have the name of the company."
-msgstr ""
+msgstr "Les pistes générées auront le même nom que l'entreprise."
 
 #: ../../crm/acquire_leads/lead_mining.rst:50
 #: ../../crm/optimize/outlook_extension.rst:138
 #: ../../crm/optimize/partner_autocomplete.rst:36
 msgid "Pricing"
-msgstr ""
+msgstr "Tarification"
 
 #: ../../crm/acquire_leads/lead_mining.rst:51
 msgid ""
@@ -341,6 +420,13 @@ msgid ""
 "Credits`; or go to :menuselection:`Settings --> In-App Purchases --> View my"
 " Services`."
 msgstr ""
+"Il s'agit d'une fonctionnalité d'achat In-App, chaque piste générée vous "
+"coûtera un crédit. Si vous décidez d'obtenir des informations de contact, "
+"chaque contact vous coûtera aussi un crédit supplémentaire. Voici le coût de"
+" cette `fonctionnalité <https://iap.odoo.com/iap/in-app-services/167?>`__. "
+"Pour acheter des crédits, vous pouvez soit aller dans :menuselection:`CRM "
+"--> Configuration --> Paramètres --> Acheter des crédits` ; soit dans "
+":menuselection:`Settings --> Achats In-App --> Voir mes Services`."
 
 #: ../../crm/acquire_leads/lead_mining.rst:65
 msgid ""
@@ -351,31 +437,39 @@ msgstr ""
 "être utilisés."
 
 #: ../../crm/acquire_leads/lead_mining.rst:68
-#: ../../crm/optimize/outlook_extension.rst:148
+#: ../../crm/optimize/outlook_extension.rst:169
 msgid ""
 "If you are on Odoo Online (SAAS) and have the Enterprise version, you "
 "benefit from free trial credits to test the feature."
 msgstr ""
+"Si vous êtes sur Odoo Online (SAAS) et disposez de la version Entreprise, "
+"vous bénéficiez de crédits d'essai gratuits pour tester cette "
+"fonctionnalité."
 
 #: ../../crm/acquire_leads/lead_mining.rst:71
 msgid ""
 ":doc:`In-App Purchases (IAP) "
 "<../../general/in_app_purchase/in_app_purchase>`"
 msgstr ""
+":doc:`In-App Purchases (IAP) "
+"<../../general/in_app_purchase/in_app_purchase>`"
 
 #: ../../crm/acquire_leads/send_quotes.rst:3
 msgid "Send quotations"
-msgstr ""
+msgstr "Envoyer des devis"
 
 #: ../../crm/acquire_leads/send_quotes.rst:5
 msgid ""
 "When you qualify a lead into an opportunity you will most likely need to "
 "send them a quotation. You can directly do this in the CRM App with Odoo."
 msgstr ""
+"Quand vous qualifiez une piste en opportunité, vous aurez sans doute besoin "
+"de lui faire parvenir un devis. Vous pouvez faire cela directement dans "
+"l'application CRM d'Odoo."
 
 #: ../../crm/acquire_leads/send_quotes.rst:12
 msgid "Create a new quotation"
-msgstr ""
+msgstr "Créer un nouveau devis"
 
 #: ../../crm/acquire_leads/send_quotes.rst:14
 msgid ""
@@ -391,6 +485,8 @@ msgid ""
 "You will find all your quotes to that specific opportunity under the "
 "*Quotations* menu on that page."
 msgstr ""
+"Vous trouverez tous vos devis relatifs à cette opportunité sous le menu "
+"*Devis* de cette page."
 
 #: ../../crm/acquire_leads/send_quotes.rst:28
 msgid "Mark them won/lost"
@@ -401,20 +497,25 @@ msgid ""
 "Now you will need to mark your opportunity as won or lost to move the "
 "process along."
 msgstr ""
+"Vous devrez maintenant marquer votre opportunité comme gagnée ou perdue pour"
+" passer à l'étape suivante."
 
 #: ../../crm/acquire_leads/send_quotes.rst:33
 msgid ""
 "If you mark them as won, they will move to your *Won* column in your Kanban "
 "view. If you however mark them as *Lost* they will be archived."
 msgstr ""
+"Si vous les marquez comme gagnées, elles se placeront dans la colonne "
+"*Gagné* de la vue Kanban. Si néanmoins vous les marquez comme *Perdu*, elles"
+" seront archivées."
 
 #: ../../crm/optimize.rst:3
 msgid "Optimize your Day-to-Day work"
-msgstr ""
+msgstr "Optimiser votre travail quotidien"
 
 #: ../../crm/optimize/gamification.rst:3
 msgid "How to motivate and reward my salespeople?"
-msgstr ""
+msgstr "Comment motiver et récompenser mes vendeurs ?"
 
 #: ../../crm/optimize/gamification.rst:5
 msgid ""
@@ -424,16 +525,24 @@ msgid ""
 "motivate and evaluate your employees with real-time recognition and badges "
 "inspired by game mechanics."
 msgstr ""
+"Encourager vos employés à atteindre des cibles précises avec des objectifs "
+"et des récompenses est un excellent moyen de renforcer les bonnes habitudes "
+"et d'améliorer la productivité de vos vendeurs. Le module Émulation d'Odoo "
+"vous donne des moyens simples et créatifs pour motiver et évaluer vos "
+"employés avec la reconnaissance en temps réel et des badges inspirés par "
+"l'univers du jeu."
 
 #: ../../crm/optimize/gamification.rst:13
 msgid ""
 "Install the *Gamification* module, or the *CRM gamification* one, which adds"
 " some useful data (goals and challenges) that can be used on *CRM/Sale*."
 msgstr ""
+"Installez le module *Emulation*, ou *Emulation CRM*, qui ajoute des données "
+"utiles (objectifs et défis) utilisables sur *CRM/Ventes*."
 
 #: ../../crm/optimize/gamification.rst:21
 msgid "Create a challenge"
-msgstr ""
+msgstr "Créez un défi"
 
 #: ../../crm/optimize/gamification.rst:23
 msgid ""
@@ -454,26 +563,29 @@ msgid ""
 "one or several goals, set for a specific period of time. Configure your "
 "challenge as follows:"
 msgstr ""
+"Un défi est une mission que vous envoyez à votre équipe commerciale. Il peut"
+" inclure un ou plusieurs objectifs, fixés pour une période de temps "
+"spécifique. Configurez votre défi comme suit :"
 
 #: ../../crm/optimize/gamification.rst:38
 msgid "Assign the salespeople to be challenged;"
-msgstr ""
+msgstr "Affecter les commerciaux à interpeller;"
 
 #: ../../crm/optimize/gamification.rst:39
 msgid "Assign a responsible;"
-msgstr ""
+msgstr "Affectez un responsable;"
 
 #: ../../crm/optimize/gamification.rst:40
 msgid "Set up the periodicity along with the start and the end date;"
-msgstr ""
+msgstr "Configurez la périodicité avec la date de début et de fin;"
 
 #: ../../crm/optimize/gamification.rst:41
 msgid "Select your goals;"
-msgstr ""
+msgstr "Sélectionnez vos objectifs;"
 
 #: ../../crm/optimize/gamification.rst:42
 msgid "Set up your rewards (badges)."
-msgstr ""
+msgstr "Configurez vos récompenses (badges)."
 
 #: ../../crm/optimize/gamification.rst:45
 msgid ""
@@ -520,10 +632,13 @@ msgid ""
 "Goals may include your database setup as well (e.g. set your company data "
 "and a timezone, create new users, etc.)."
 msgstr ""
+"Les objectifs peuvent aussi inclure la configuration de votre base de "
+"données (par ex. définir les données de votre entreprise et un fuseau "
+"horaire, créer de nouveaux utilisateurs, etc.)."
 
 #: ../../crm/optimize/gamification.rst:77
 msgid "Set up rewards"
-msgstr ""
+msgstr "Configurez vos récompenses"
 
 #: ../../crm/optimize/gamification.rst:79
 msgid ""
@@ -532,291 +647,6 @@ msgid ""
 "express gratitude to a user for their good work. To create and grant badges "
 "to your employees based on their performance, go to :menuselection:`Settings"
 " --> Gamification Tools --> Badges`."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:3
-msgid "Synchronize Google Calendar with Odoo"
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:5
-msgid ""
-"Odoo is perfectly integrated with Google Calendar so that you can see & "
-"manage your meetings from both platforms (updates go through both "
-"directions)."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:10
-msgid "Setup in Google"
-msgstr "Configuration dans Google"
-
-#: ../../crm/optimize/google_calendar_credentials.rst:11
-msgid ""
-"Go to `Google APIs platform <https://console.developers.google.com>`__ to "
-"generate Google Calendar API credentials. Log in with your Google account."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:14
-msgid "Go to the API & Services page."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:19
-msgid "Search for *Google Calendar API* and select it."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:27
-msgid "Enable the API."
-msgstr "Activez l'API."
-
-#: ../../crm/optimize/google_calendar_credentials.rst:32
-msgid ""
-"Select or create an API project to store the credentials if not yet done "
-"before. Give it an explicit name (e.g. Odoo Sync)."
-msgstr ""
-"Sélectionnez ou créez un projet d'API pour enregistrer les identifiants si "
-"vous ne l'avez jamais fait. Donnez-lui un nom explicite (e.g. Odoo Sync)."
-
-#: ../../crm/optimize/google_calendar_credentials.rst:35
-msgid "Create credentials."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:40
-msgid ""
-"Select *Web browser (Javascript)* as calling source and *User data* as kind "
-"of data."
-msgstr ""
-"Sélectionnez *Navigateur Web (Javascript)* comme contexte à partir duquel "
-"l'API sera appelée et *Données utilisateur* comme type de données."
-
-#: ../../crm/optimize/google_calendar_credentials.rst:46
-msgid ""
-"Then you can create a Client ID. Enter the name of the application (e.g. "
-"Odoo Calendar) and the allowed pages on which you will be redirected. The "
-"*Authorized JavaScript origin* is your Odoo's instance URL. The *Authorized "
-"redirect URI* is your Odoo's instance URL followed by "
-"'/google_account/authentication'."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:55
-msgid ""
-"Go through the Consent Screen step by entering a product name (e.g. Odoo "
-"Calendar). Feel free to check the customizations options but this is not "
-"mandatory. The Consent Screen will only show up when you enter the Client ID"
-" in Odoo for the first time."
-msgstr ""
-"Parcourez l'écran de consentement en entrant le nom du produit (e.g. "
-"Calendrier Odoo). Vous pouvez prendre connaissance des options de "
-"personnalisation mais ce n'est pas obligatoire. L'écran d'accord "
-"n'apparaîtra qu'une fois que vous aurez entré l'identifiant client dans "
-"Odoo."
-
-#: ../../crm/optimize/google_calendar_credentials.rst:60
-msgid ""
-"Finally you are provided with your **Client ID**. Go to *Credentials* to get"
-" the **Client Secret** as well. Both of them are required in Odoo."
-msgstr ""
-"Pour terminer, on vous indique votre **ID Client**. Cliquez sur "
-"*Credentials* pour obtenir ensuite le **Client Secret**. Vous aurez besoin "
-"de ces deux informations dans Odoo."
-
-#: ../../crm/optimize/google_calendar_credentials.rst:67
-msgid "Setup in Odoo"
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:69
-msgid ""
-"Install the **Google Calendar** App from the *Apps* menu or by checking the "
-"option in :menuselection:`Settings --> General Settings`."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:75
-msgid ""
-"Go to :menuselection:`Settings --> General Settings` and enter your **Client"
-" ID** and **Client Secret** in Google Calendar option."
-msgstr ""
-
-#: ../../crm/optimize/google_calendar_credentials.rst:81
-msgid ""
-"The setup is now ready. Open your Odoo Calendar and sync with Google. The "
-"first time you do it you are redirected to Google to authorize the "
-"connection. Once back in Odoo, click the sync button again. You can click it"
-" whenever you want to synchronize your calendar."
-msgstr ""
-"Le paramétrage est maintenant terminé. Ouvrez votre Calendrier Google et "
-"synchronisez-le avec Google. La première fois que vous le faites vous êtes "
-"redirigé sur une page Google pour autoriser la connexion. De retour dans "
-"Odoo, re-cliquez sur le bouton synchroniser. Vous pouvez cliquer sur ce "
-"bouton chaque fois que vous voulez synchroniser votre calendrier."
-
-#: ../../crm/optimize/google_calendar_credentials.rst:89
-msgid "As of now you no longer have excuses to miss a meeting!"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:3
-msgid "Use VOIP services in Odoo with OnSIP"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:6
-msgid "Introduction"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:8
-msgid ""
-"Odoo VoIP can be set up to work together with OnSIP (www.onsip.com). In that"
-" case, the installation and setup of an Asterisk server is not necessary as "
-"the whole infrastructure is hosted and managed by OnSIP."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:10
-msgid ""
-"You will need to open an account with OnSIP to use this service. Before "
-"doing so, make sure that your area and the areas you wish to call are "
-"covered by the service. After opening an OnSIP account, follow the "
-"configuration procedure below."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:15
-msgid "Go to Apps and install the module **VoIP OnSIP**."
-msgstr "Allez à la page Applications et installez le module **VoIP OnSIP**."
-
-#: ../../crm/optimize/onsip.rst:20
-msgid ""
-"Go to Settings/General Settings. In the section Integrations/Asterisk "
-"(VoIP), fill in the 3 fields:"
-msgstr ""
-"Allez dans Paramètres/Paramètres Généraux. Dans la partie "
-"Intégration/Asterisk (VoIP), renseignez les 3 champs :"
-
-#: ../../crm/optimize/onsip.rst:22
-msgid ""
-"**OnSIP Domain** is the domain you chose when creating an account on "
-"www.onsip.com. If you don't know it, log in to https://admin.onsip.com/ and "
-"you will see it in the top right corner of the screen."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:23
-msgid "**WebSocket** should contain wss://edge.sip.onsip.com"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:24
-msgid "**Mode** should be Production"
-msgstr "**Mode** devrait indiquer Production"
-
-#: ../../crm/optimize/onsip.rst:29
-msgid ""
-"Go to **Settings/Users**. In the form view of each VoIP user, in the "
-"Preferences tab, fill in the section **PBX Configuration**:"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:31
-msgid "**SIP Login / Browser's Extension**: the OnSIP 'Username'"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:32
-msgid "**OnSIP authorization User**: the OnSIP 'Auth Username'"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:33
-msgid "**SIP Password**: the OnSIP 'SIP Password'"
-msgstr "**Mot de passe SIP** : le 'SIP Password' de OnSIP"
-
-#: ../../crm/optimize/onsip.rst:34
-msgid "**Handset Extension**: the OnSIP 'Extension'"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:36
-msgid ""
-"You can find all this information by logging in at "
-"https://admin.onsip.com/users, then select the user you want to configure "
-"and refer to the fields as pictured below."
-msgstr ""
-"Vous pourrez trouver toutes ces informations en vous connectant sur "
-"https://admin.onsip.com/users puis en sélectionnant l’utilisateur que vous "
-"voulez configurer et regarder les champs dans l'image ci-dessous."
-
-#: ../../crm/optimize/onsip.rst:41
-msgid ""
-"You can now make phone calls by clicking the phone icon in the top right "
-"corner of Odoo (make sure you are logged in as a user properly configured in"
-" Odoo and in OnSIP)."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:45
-msgid ""
-"If you see a *Missing Parameters* message in the Odoo softphone, make sure "
-"to refresh your Odoo window and try again."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:52
-msgid ""
-"If you see an *Incorrect Number* message in the Odoo softphone, make sure to"
-" use the international format, leading with the plus (+) sign followed by "
-"the international country code. E.g.: +16506913277 (where +1 is the "
-"international prefix for the United States)."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:57
-msgid ""
-"You can now also receive phone calls. Your number is the one provided by "
-"OnSIP. Odoo will ring and display a notification."
-msgstr ""
-"Vous pouvez aussi recevoir des appels. Votre numéro est celui qui vous a été"
-" fourni par OnSIP. Odoo sonnera et affichera une notification."
-
-#: ../../crm/optimize/onsip.rst:63
-msgid "OnSIP on Your Cell Phone"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:65
-msgid ""
-"In order to make and receive phone calls when you are not in front of your "
-"computer, you can use a softphone app on your cell phone in parallel of Odoo"
-" VoIP. This is useful for on-the-go calls, but also to make sure to hear "
-"incoming calls, or simply for convenience. Any SIP softphone will work."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:67
-msgid ""
-"On Android and iOS, OnSIP has been successfully tested with `Grandstream "
-"Wave <https://play.google.com/store/apps/details?id=com.grandstream.wave>`_."
-" When creating an account, select OnSIP in the list of carriers. You will "
-"then have to configure it as follows:"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:69
-msgid "**Account name**: OnSIP"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:70
-msgid "**SIP Server**: the OnSIP 'Domain'"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:71
-msgid "**SIP User ID**: the OnSIP 'Username'"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:72
-msgid "**SIP Authentication ID**: the OnSIP 'Auth Username'"
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:73
-msgid "**Password**: the OnSIP 'SIP Password'"
-msgstr "**Mot de passe** : le 'SIP Password' OnSIP"
-
-#: ../../crm/optimize/onsip.rst:75
-msgid ""
-"Aside from initiating calls from Grandstream Wave on your phone, you can "
-"also initiate calls by clicking phone numbers in your browser on your PC. "
-"This will make Grandstream Wave ring and route the call via your phone to "
-"the other party. This approach is useful to avoid wasting time dialing phone"
-" numbers. In order to do so, you will need the Chrome extension `OnSIP Call "
-"Assistant <https://chrome.google.com/webstore/detail/onsip-call-"
-"assistant/pceelmncccldedfkcgjkpemakjbapnpg?hl=en>`_."
-msgstr ""
-
-#: ../../crm/optimize/onsip.rst:79
-msgid ""
-"The downside of using a softphone on your cell phone is that your calls will"
-" not be logged in Odoo as the softphone acts as an independent separate app."
 msgstr ""
 
 #: ../../crm/optimize/outlook_extension.rst:3
@@ -889,6 +719,14 @@ msgstr ""
 msgid "``https://download.odoo.com/plugins/outlook/manifest.xml``"
 msgstr ""
 
+#: ../../crm/optimize/outlook_extension.rst:50
+msgid "Todo"
+msgstr "À faire"
+
+#: ../../crm/optimize/outlook_extension.rst:50
+msgid "add copy button when the feature is added to the doc"
+msgstr ""
+
 #: ../../crm/optimize/outlook_extension.rst:52
 msgid ""
 "Connect to your Outlook mailbox, open any email, and click on the *More "
@@ -919,9 +757,8 @@ msgstr ""
 
 #: ../../crm/optimize/outlook_extension.rst:84
 msgid ""
-"The *Odoo for Outlook* add-in is not listed in Outlook yet on Outlook's add-"
-"ins list. This is why it is currently necessary to install it as a *custom "
-"add-in*."
+"The *Odoo for Outlook* add-in is not listed yet on Outlook's add-ins list. "
+"This is why it is currently necessary to install it as a *custom add-in*."
 msgstr ""
 
 #: ../../crm/optimize/outlook_extension.rst:90
@@ -993,38 +830,69 @@ msgid ""
 "information."
 msgstr ""
 
-#: ../../crm/optimize/outlook_extension.rst:141
+#: ../../crm/optimize/outlook_extension.rst:140
 msgid ""
-"*Partner Autocomplete* is an *In-App Purchase (IAP)* service, which requires"
-" prepaid credits to be used. Each request consumes one credit."
+"The extension is **free** and doesn't require any purchase to be installed "
+"and used."
 msgstr ""
 
-#: ../../crm/optimize/outlook_extension.rst:143
+#: ../../crm/optimize/outlook_extension.rst:142
+msgid ""
+"However, this extension provides you with *Lead Enrichment* in the **Company"
+" Insights** section. This service is part of a paid service known as **Lead "
+"Generation**."
+msgstr ""
+
+#: ../../crm/optimize/outlook_extension.rst:145
+msgid ""
+"The extension allows you to test this service for free, whether you connect "
+"the extension to a database or not. After a while, the extension asks you to"
+" buy credits to keep using this additional service."
+msgstr ""
+
+#: ../../crm/optimize/outlook_extension.rst:155
+msgid ""
+"You can buy more *Lead Generation* credits to keep using this service or "
+"disregard this message and keep using the extension for free without *Lead "
+"Enrichment*."
+msgstr ""
+
+#: ../../crm/optimize/outlook_extension.rst:159
+msgid "In-App Purchase"
+msgstr "Achats in-App"
+
+#: ../../crm/optimize/outlook_extension.rst:162
+msgid ""
+"*Lead Generation* is an *In-App Purchase (IAP)* service, which requires "
+"prepaid credits to be used. Each request consumes one credit."
+msgstr ""
+
+#: ../../crm/optimize/outlook_extension.rst:164
 #: ../../crm/optimize/partner_autocomplete.rst:41
 msgid ""
 "To buy credits, go to :menuselection:`Settings --> Contacts --> Partner "
 "Autocomplete or Odoo IAP --> View My Services` and select a package."
 msgstr ""
 
-#: ../../crm/optimize/outlook_extension.rst:146
+#: ../../crm/optimize/outlook_extension.rst:167
 msgid ""
 "If you run out of credits, the only information populated when clicking on "
 "the suggested company is the website link and logo."
 msgstr ""
 
-#: ../../crm/optimize/outlook_extension.rst:150
+#: ../../crm/optimize/outlook_extension.rst:171
 #: ../../crm/optimize/partner_autocomplete.rst:48
 msgid ""
 "Learn about our *Privacy Policy* `here "
 "<https://iap.odoo.com/privacy#header_2>`_."
 msgstr ""
 
-#: ../../crm/optimize/outlook_extension.rst:153
-msgid ":doc:`partner_autocomplete`"
+#: ../../crm/optimize/outlook_extension.rst:174
+msgid ":doc:`../../general/in_app_purchase/in_app_purchase`"
 msgstr ""
 
-#: ../../crm/optimize/outlook_extension.rst:154
-msgid ":doc:`../../general/in_app_purchase/in_app_purchase`"
+#: ../../crm/optimize/outlook_extension.rst:175
+msgid "`Odoo Learn: Lead Enrichment <https://www.odoo.com/r/p73>`_"
 msgstr ""
 
 #: ../../crm/optimize/partner_autocomplete.rst:3
@@ -1084,245 +952,13 @@ msgid ""
 "benefit from free trial credits to test the feature."
 msgstr ""
 
-#: ../../crm/optimize/setup.rst:3
-msgid "Configure your VOIP Asterisk server for Odoo"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:6
-msgid "Installing Asterisk server"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:9
-msgid "Dependencies"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:11
-msgid ""
-"Before installing Asterisk you need to install the following dependencies:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:13
-msgid "wget"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:14
-msgid "gcc"
-msgstr "gcc"
-
-#: ../../crm/optimize/setup.rst:15
-msgid "g++"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:16
-msgid "ncurses-devel"
-msgstr "ncurses-devel"
-
-#: ../../crm/optimize/setup.rst:17
-msgid "libxml2-devel"
-msgstr "libxml2-devel"
-
-#: ../../crm/optimize/setup.rst:18
-msgid "sqlite-devel"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:19
-msgid "libsrtp-devel"
-msgstr "libsrtp-devel"
-
-#: ../../crm/optimize/setup.rst:20
-msgid "libuuid-devel"
-msgstr "libuuid-devel"
-
-#: ../../crm/optimize/setup.rst:21
-msgid "openssl-devel"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:22
-msgid "pkg-config"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:24
-msgid "In order to install libsrtp, follow the instructions below:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:35
-msgid ""
-"You also need to install PJSIP, you can download the source `here "
-"<http://www.pjsip.org/download.htm>`_. Once the source directory is "
-"extracted:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:37
-msgid "**Change to the pjproject source directory:**"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:43
-msgid "**run:**"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:49
-msgid "**Build and install pjproject:**"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:57
-msgid "**Update shared library links:**"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:63
-msgid "**Verify that pjproject is installed:**"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:69
-msgid "**The result should be:**"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:86
-msgid "Asterisk"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:88
-msgid ""
-"In order to install Asterisk 13.7.0, you can download the source directly "
-"`there <http://downloads.asterisk.org/pub/telephony/asterisk/old-"
-"releases/asterisk-13.7.0.tar.gz>`_."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:90
-msgid "Extract Asterisk:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:96
-msgid "Enter the Asterisk directory:"
-msgstr "Entrez dans le répertoire d'Asterisk :"
-
-#: ../../crm/optimize/setup.rst:102
-msgid "Run the Asterisk configure script:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:108
-msgid "Run the Asterisk menuselect tool:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:114
-msgid ""
-"In the menuselect, go to the resources option and ensure that res_srtp is "
-"enabled. If there are 3 x’s next to res_srtp, there is a problem with the "
-"srtp library and you must reinstall it. Save the configuration (press x). "
-"You should also see stars in front of the res_pjsip lines."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:116
-msgid "Compile and install Asterisk:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:122
-msgid ""
-"If you need the sample configs you can run 'make samples' to install the "
-"sample configs. If you need to install the Asterisk startup script you can "
-"run 'make config'."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:125
-msgid "DTLS Certificates"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:127
-msgid "After you need to setup the DTLS certificates."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:133
-msgid "Enter the Asterisk scripts directory:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:139
-msgid ""
-"Create the DTLS certificates (replace pbx.mycompany.com with your ip address"
-" or dns name, replace My Super Company with your company name):"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:146
-msgid "Configure Asterisk server"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:148
-msgid ""
-"For WebRTC, a lot of the settings that are needed MUST be in the peer "
-"settings. The global settings do not flow down into the peer settings very "
-"well. By default, Asterisk config files are located in /etc/asterisk/. Start"
-" by editing http.conf and make sure that the following lines are "
-"uncommented:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:158
-msgid ""
-"Next, edit sip.conf. The WebRTC peer requires encryption, avpf, and "
-"icesupport to be enabled. In most cases, directmedia should be disabled. "
-"Also under the WebRTC client, the transport needs to be listed as ‘ws’ to "
-"allow websocket connections. All of these config lines should be under the "
-"peer itself; setting these config lines globally might not work:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:186
-msgid ""
-"In the sip.conf and rtp.conf files you also need to add or uncomment the "
-"lines:"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:193
-msgid "Lastly, set up extensions.conf:"
-msgstr "Enfin, configurez extensions.conf :"
-
-#: ../../crm/optimize/setup.rst:202
-msgid "Configure Odoo VOIP"
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:204
-msgid "In Odoo, the configuration should be done in the user's preferences."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:210
-msgid ""
-"The SIP Login/Browser's Extension is the number you configured previously in"
-" the sip.conf file (in our example: 1060)."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:212
-msgid "The SIP Password is the secret you chose in the sip.conf file."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:214
-msgid ""
-"The extension of your office's phone is not a required field but it is used "
-"if you want to transfer your call from Odoo to an external phone also "
-"configured in the sip.conf file."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:217
-msgid ""
-"The configuration should also be done in the General Settings under the "
-"\"Integrations\" section."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:222
-msgid ""
-"The PBX Server IP should be the same as the IP you define in the http.conf "
-"file."
-msgstr ""
-
-#: ../../crm/optimize/setup.rst:224
-msgid ""
-"The WebSocket should be: ws://localhost:XXXX/ws where \"localhost\" needs to"
-" be the same as the IP defined previously and \"XXXX\" needs to be the port "
-"defined in the http.conf file."
-msgstr ""
-
 #: ../../crm/performance.rst:3
 msgid "Analyze performance"
-msgstr ""
+msgstr "Analyser la performance"
 
 #: ../../crm/performance/win_loss.rst:3
 msgid "Check your Win/Loss Ratio"
-msgstr ""
+msgstr "Contrôler votre ratio Gagné/Perdu"
 
 #: ../../crm/performance/win_loss.rst:5
 msgid ""
@@ -1351,11 +987,11 @@ msgstr ""
 
 #: ../../crm/performance/win_loss.rst:18
 msgid "You can also change the *Measures* to *Total Revenue*."
-msgstr ""
+msgstr "Vous pouvez également changer la *Mesure* pour *Revenu espéré*."
 
 #: ../../crm/performance/win_loss.rst:23
 msgid "You also have the ability to switch to a pie chart view."
-msgstr ""
+msgstr "Vous pouvez également basculer sur la vue diagramme."
 
 #: ../../crm/pipeline.rst:3
 msgid "Organize the pipeline"
@@ -1371,6 +1007,9 @@ msgid ""
 " want to keep track of the reasons you lost them and also which ways Odoo "
 "can help you recover them in the future."
 msgstr ""
+"Quand vous travaillez sur vos opportunités, vous pourriez en perdre quelques"
+" unes. Vous voudrez sans doute garder la trace de la raison de ces échecs et"
+" aussi comment Odoo pourrait vous aider à les reconquérir plus tard."
 
 #: ../../crm/pipeline/lost_opportunities.rst:10
 msgid "Mark a lead as lost"
@@ -1381,47 +1020,59 @@ msgid ""
 "While in your pipeline, select any opportunity you want and you will see a "
 "*Mark Lost* button."
 msgstr ""
+"Dans votre pipeline, sélectionnez l'opportunité désirée et vous verrez un "
+"bouton *Marquer comme perdu*."
 
 #: ../../crm/pipeline/lost_opportunities.rst:15
 msgid ""
 "You can then select an existing *Lost Reason* or create a new one right "
 "there."
 msgstr ""
+"Vous pouvez sélectionner un *Motif de la perte* ou en créer un nouveau ici."
 
 #: ../../crm/pipeline/lost_opportunities.rst:22
 msgid "Manage & create lost reasons"
-msgstr ""
+msgstr "Gérer & créer des motifs de perte"
 
 #: ../../crm/pipeline/lost_opportunities.rst:24
 msgid ""
 "You will find your *Lost Reasons* under :menuselection:`Configuration --> "
 "Lost Reasons`."
 msgstr ""
+"Vous trouverez vos *Motifs de la perte* dans le menu "
+":menuselection:`Configuration --> Motifs de la perte`."
 
 #: ../../crm/pipeline/lost_opportunities.rst:26
 msgid ""
 "You can select & rename any of them as well as create a new one from there."
 msgstr ""
+"Vous pouvez sélectionner & renommer n'importe lequel ou en créer un nouveau "
+"à cet endroit."
 
 #: ../../crm/pipeline/lost_opportunities.rst:30
 msgid "Retrieve lost opportunities"
-msgstr ""
+msgstr "Récupérer les opportunités perdues"
 
 #: ../../crm/pipeline/lost_opportunities.rst:32
 msgid ""
 "To retrieve lost opportunities and do actions on them (send an email, make a"
 " feedback call, etc.), select the *Lost* filter in the search bar."
 msgstr ""
+"Pour récupérer les opportunités perdues et agir sur elles (envoyer un mail, "
+"rappeler pour un bilan, etc.) choisissez le filtre *Perdu* dans la barre de "
+"recherche."
 
 #: ../../crm/pipeline/lost_opportunities.rst:39
 msgid "You will then see all your lost opportunities."
-msgstr ""
+msgstr "Vous verrez alors toutes vos opportunités perdues."
 
 #: ../../crm/pipeline/lost_opportunities.rst:41
 msgid ""
 "If you want to refine them further, you can add a filter on the *Lost "
 "Reason*."
 msgstr ""
+"Si vous voulez affiner plus avant, vous pouvez ajouter un filtre *Motif de "
+"la perte*."
 
 #: ../../crm/pipeline/lost_opportunities.rst:44
 msgid "For Example, *Too Expensive*."
@@ -1429,7 +1080,7 @@ msgstr "Par exemple, *Trop cher*."
 
 #: ../../crm/pipeline/lost_opportunities.rst:50
 msgid "Restore lost opportunities"
-msgstr ""
+msgstr "Restaurer les opportunités perdues"
 
 #: ../../crm/pipeline/lost_opportunities.rst:52
 msgid ""
@@ -1437,6 +1088,9 @@ msgid ""
 "opportunity you wish and work on it as usual. You can also restore it by "
 "clicking on *Archived*."
 msgstr ""
+"Dans la vue Kanban, avec le(s) filtre(s) activés, vous pouvez sélectionner "
+"n'importe quelle opportunité, pour la traiter comme d'habitude. Vous pouvez "
+"aussi la restaurer en cliquant sur *Restaurer*."
 
 #: ../../crm/pipeline/lost_opportunities.rst:59
 msgid ""
@@ -1444,10 +1098,15 @@ msgid ""
 " the same stage. Select *Restore Records* in the column options. You can "
 "also archive the same way."
 msgstr ""
+"Vous pouvez aussi restaurer les éléments par lot dans la vue Kanban, quand "
+"ils appartiennent à la même étape. Sélectionnez *Désarchiver* dans les "
+"options de la colonne. Vous pouvez également les archiver de la même "
+"manière."
 
 #: ../../crm/pipeline/lost_opportunities.rst:66
 msgid "To select specific opportunities, you should switch to the list view."
 msgstr ""
+"Pour sélectionner certaines opportunités, vous devriez passer en vue liste."
 
 #: ../../crm/pipeline/lost_opportunities.rst:71
 msgid ""
@@ -1463,17 +1122,20 @@ msgstr ":doc:`../performance/win_loss`"
 
 #: ../../crm/pipeline/multi_sales_team.rst:3
 msgid "Manage multiple sales teams"
-msgstr ""
+msgstr "Gérer plusieurs équipes commerciales"
 
 #: ../../crm/pipeline/multi_sales_team.rst:5
 msgid ""
 "In Odoo, you can manage several sales teams, departments or channels with "
 "specific sales processes. To do so, we use the concept of *Sales Channel*."
 msgstr ""
+"Dans 0doo, vous pouvez gérer plusieurs équipes commerciales, départements ou"
+" canaux avec des processus de vente spécifiques. Pour cela, nous utilisons "
+"le concept d' *Équipe Commerciale*."
 
 #: ../../crm/pipeline/multi_sales_team.rst:10
 msgid "Create a new sales channel"
-msgstr ""
+msgstr "Créer une nouvelle équipe commerciale"
 
 #: ../../crm/pipeline/multi_sales_team.rst:12
 msgid ""
@@ -1488,10 +1150,12 @@ msgid ""
 "There you can set an email alias to it. Every message sent to that email "
 "address will create a lead/opportunity."
 msgstr ""
+"Vous pouvez ici définir un alias mail pour cette équipe. Chaque message "
+"envoyé à cette adresse mail créera une piste/opportunité."
 
 #: ../../crm/pipeline/multi_sales_team.rst:21
 msgid "Add members to your sales channel"
-msgstr ""
+msgstr "Ajouter des membres à votre équipe commerciale"
 
 #: ../../crm/pipeline/multi_sales_team.rst:23
 msgid ""
@@ -1500,20 +1164,27 @@ msgid ""
 "lead/opportunity assigned to them will link to the sales channel. Therefore,"
 " you can only be a member of one channel."
 msgstr ""
+"Vous pouvez ajouter des membres à n'importe quelle équipe ; de cette manière"
+" ces membres verront la structure du pipeline de l'équipe commerciale en "
+"l'ouvrant. Toute piste/opportunité qui leur aura été  assignée sera "
+"rattachée à l'équipe commerciale. Par conséquent, on ne peut être membre que"
+" d'une seule équipe commerciale."
 
 #: ../../crm/pipeline/multi_sales_team.rst:28
 msgid "This will ease the process review of the team manager."
-msgstr ""
+msgstr "Ceci facilitera le processus de supervision par le chef d'équipe."
 
 #: ../../crm/pipeline/multi_sales_team.rst:33
 msgid ""
 "If you now filter on this specific channel in your pipeline, you will find "
 "all of its opportunities."
 msgstr ""
+"Si vous filtrez maintenant sur cette équipe dans votre pipeline, vous verrez"
+" toutes ses opportunités."
 
 #: ../../crm/pipeline/multi_sales_team.rst:40
 msgid "Sales channel dashboard"
-msgstr ""
+msgstr "Le tableau de bord de l'équipe commerciale"
 
 #: ../../crm/pipeline/multi_sales_team.rst:42
 msgid ""
@@ -1521,6 +1192,9 @@ msgid ""
 "sales manager also has access to the *Sales Channel Dashboard* under "
 "*Reporting*."
 msgstr ""
+"Pour voir les opérations et les résultats de n'importe quelle équipe "
+"commerciale d'un coup d’œil, le directeur commercial a également accès au "
+"*Tableau de bord de l'Équipe Commerciale*, sous le menu *Rapports*."
 
 #: ../../crm/pipeline/multi_sales_team.rst:46
 msgid ""
@@ -1532,11 +1206,11 @@ msgstr ""
 
 #: ../../crm/track_leads.rst:3
 msgid "Assign and track leads"
-msgstr ""
+msgstr "Assigner et suivre des pistes"
 
 #: ../../crm/track_leads/lead_scoring.rst:3
 msgid "Assign leads based on scoring"
-msgstr ""
+msgstr "Assigner des pistes d'après leur score"
 
 #: ../../crm/track_leads/lead_scoring.rst:5
 msgid ""
@@ -1551,6 +1225,8 @@ msgid ""
 "For example you could score customers from your country higher or the ones "
 "that visited specific pages on your website."
 msgstr ""
+"Par exemple, vous pourriez mieux noter les visiteurs issus de votre pays ou "
+"ceux qui ont visité des pages précises de votre site web."
 
 #: ../../crm/track_leads/lead_scoring.rst:14
 msgid ""
@@ -1578,16 +1254,21 @@ msgid ""
 "Here's an example for a Canadian lead, you can modify for whatever criteria "
 "you wish to score your leads on. You can add as many criterias as you wish."
 msgstr ""
+"Voici un exemple pour une piste canadienne, vous pouvez modifier tous les "
+"critères servant à noter vos pistes. Vous pouvez ajouter autant de critères "
+"que vous souhaitez."
 
 #: ../../crm/track_leads/lead_scoring.rst:33
 msgid ""
 "Every hour every lead without a score will be automatically scanned and "
 "assigned their right score according to your scoring rules."
 msgstr ""
+"Toutes les heures, les pistes n'ayant pas de score seront automatiquement "
+"examinées et recevront la note qui correspond à vos règles de notation."
 
 #: ../../crm/track_leads/lead_scoring.rst:40
 msgid "Assign leads"
-msgstr ""
+msgstr "Assigner des pistes"
 
 #: ../../crm/track_leads/lead_scoring.rst:42
 msgid ""
@@ -1596,23 +1277,34 @@ msgid ""
 "Management --> Team Assignation` and apply a specific domain on each team. "
 "This domain can include scores."
 msgstr ""
+"Une fois les notes calculées, les pistes peuvent être assignées à une équipe"
+" particulière en utilisant le même mécanisme de domaine. Pour ce faire, "
+"allez dans :menuselection:`CRM --> Gestion des Pistes --> Attibution aux "
+"Équipes` et appliquer un domaine spécifique à chacun. Ce domaine peut "
+"inclure des notes."
 
 #: ../../crm/track_leads/lead_scoring.rst:49
 msgid ""
 "Further on, you can assign to a specific vendor in the team with an even "
 "more refined domain."
 msgstr ""
+"Mieux encore, vous pouvez assigner une piste à un membre de l'équipe en "
+"particulier avec un domaine encore plus précis."
 
 #: ../../crm/track_leads/lead_scoring.rst:52
 msgid ""
 "To do so go to :menuselection:`CRM --> Leads Management --> Leads "
 "Assignation`."
 msgstr ""
+"Pour cela, allez dans :menuselection:`CRM --> Gestion des Pistes --> "
+"Assignation des pistes`."
 
 #: ../../crm/track_leads/lead_scoring.rst:58
 msgid ""
 "The team & leads assignation will assign the unassigned leads once a day."
 msgstr ""
+"L'assignation des équipes & pistes affectera les pistes non assignées une "
+"fois par jour."
 
 #: ../../crm/track_leads/lead_scoring.rst:62
 msgid "Evaluate & use the unassigned leads"
@@ -1624,11 +1316,16 @@ msgid ""
 "unassigned leads. Some of them could still lead to an opportunity so it is "
 "useful to do something with them."
 msgstr ""
+"Une fois vos règles de notation établies vous aurez certainement encore des "
+"pistes non assignées. Certaines d'entre elles pourraient encore se "
+"transformer en opportunité aussi il et utile d'en faire quelque chose."
 
 #: ../../crm/track_leads/lead_scoring.rst:68
 msgid ""
 "In your leads page you can place a filter to find your unassigned leads."
 msgstr ""
+"Dans la page des pistes, vous pouvez activer un filtre pour trouver toutes "
+"vos pistes non-assignées."
 
 #: ../../crm/track_leads/lead_scoring.rst:73
 msgid ""
@@ -1636,6 +1333,10 @@ msgid ""
 "Automation` apps to send a mass email to them? You can also easily find such"
 " unassigned leads from there."
 msgstr ""
+"Pourquoi ne pas utiliser les applications :menuselection:`Marketing Email` "
+"ou :menuselection:`Automatisation Marketing` pour leur envoyer un "
+"publipostage ? De la même manière, vous pouvez également trouver des pistes "
+"non assignées à partir de cet endroit."
 
 #: ../../crm/track_leads/prospect_visits.rst:3
 msgid "Track your prospects visits"
@@ -1646,22 +1347,30 @@ msgid ""
 "Tracking your website pages will give you much more information about the "
 "interests of your website visitors."
 msgstr ""
+"Suivre les visites des pages de votre site web vous donnera beaucoup plus "
+"d'information sur les centres d'intérêt de vos visiteurs."
 
 #: ../../crm/track_leads/prospect_visits.rst:8
 msgid ""
 "Every tracked page they visit will be recorded on your lead/opportunity if "
 "they use the contact form on your website."
 msgstr ""
+"Toutes les pages suivies qu'ils visitent seront enregistrées dans votre "
+"piste/opportunité s'ils utilisent le formulaire de contact de votre site "
+"web."
 
 #: ../../crm/track_leads/prospect_visits.rst:14
 msgid ""
 "To use this feature, install the free module *Lead Scoring* under your "
 "*Apps* page (only available in Odoo Enterprise)."
 msgstr ""
+"Pour utiliser cette fonctionnalité, installez le module gratuit *Notation "
+"des Pistes* depuis la page *Apps* (accessible uniquement dans la version "
+"Odoo Entreprise)."
 
 #: ../../crm/track_leads/prospect_visits.rst:21
 msgid "Track a webpage"
-msgstr ""
+msgstr "Suivre une page web"
 
 #: ../../crm/track_leads/prospect_visits.rst:23
 msgid ""
@@ -1678,7 +1387,7 @@ msgstr "Là vous trouverez une case à cocher *Suivre la Page*."
 
 #: ../../crm/track_leads/prospect_visits.rst:35
 msgid "See visited pages in your leads/opportunities"
-msgstr ""
+msgstr "Voir les pages visitées dans vos pistes/opportunités"
 
 #: ../../crm/track_leads/prospect_visits.rst:37
 msgid ""
@@ -1698,13 +1407,17 @@ msgid ""
 "Both will update if the viewers comes back to your website and visits more "
 "pages."
 msgstr ""
+"Tous les deux seront mis à jour si le visiteur revient sur votre site pour "
+"consulter d'autres pages."
 
 #: ../../crm/track_leads/prospect_visits.rst:52
 msgid ""
 "The feature will not repeat multiple viewings of the same pages in the "
 "chatter."
 msgstr ""
+"Cette fonctionnalité ne reprendra pas les visites multiples d'une même page "
+"dans le chatter."
 
 #: ../../crm/track_leads/prospect_visits.rst:55
 msgid "Your customers will no longer be able to keep any secrets from you!"
-msgstr ""
+msgstr "Vos clients ne pourront plus vous cacher quoi que ce soit !"
